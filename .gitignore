@@ -1,0 +1,11 @@
+node_modules/
+.env
+# api
+api/data/
+# video: arquivos gerados
+video/saida/
+video/videos/*/_cache/
+video/videos/*/voz.wav
+video/videos/*/_ouvido.txt
+video/assets/tts/
+__pycache__/

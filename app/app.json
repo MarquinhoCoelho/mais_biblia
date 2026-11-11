@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Mais Bíblia",
+    "slug": "mais-biblia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "maisbiblia",
+    "backgroundColor": "#0f0d0a",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.marcossc.maisbiblia",
+      "adaptiveIcon": {
+        "backgroundColor": "#fbf7ec",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-video",
+      "expo-image",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#fbf7ec",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "apiUrl": "http://92.112.176.96:3070",
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "1517f95f-4555-4e46-a116-92e23531b0b0"
+      }
+    },
+    "owner": "marcossc"
+  }
+}

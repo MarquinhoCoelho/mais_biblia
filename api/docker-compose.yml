@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    container_name: mais-biblia-api
+    restart: unless-stopped
+    ports:
+      - "${PORTA:-3070}:3000"
+    environment:
+      - ADMIN_TOKEN=${ADMIN_TOKEN:?defina ADMIN_TOKEN no .env}
+      - PUBLIC_URL=${PUBLIC_URL:-}
+    volumes:
+      - ./data:/data

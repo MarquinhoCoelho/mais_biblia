@@ -1,0 +1,103 @@
+{
+ "titulo": "Malco: o homem que perdeu a orelha",
+ "livro": "jo", "capitulo": 18, "versiculos": "10-27", "parte": 1, "trecho": "João 18:10-27",
+ "fontes": ["João 18:10-11", "João 18:26-27", "Lucas 22:49-51", "Mateus 26:51-52", "Marcos 14:47", "Levítico 21:16-23", "Josefo, Antiguidades Judaicas 14.366 (c. 40 a.C.)", "Josefo, Guerra dos Judeus 1.270"],
+ "cenas": [
+  {"fala": "Esse homem perdeu a orelha na noite em que Jesus foi preso.",
+   "desenho": [
+    {"f": "noite"}, {"f": "lua", "x": 880, "y": 700}, {"f": "estrelas", "n": 5},
+    {"f": "chao", "y": 1480, "grama": false},
+    {"f": "pessoa", "x": 330, "roupa": "#f0954a", "cabelo": "#4a3524", "barba": "#4a3524", "olhos": "bravo", "boca": "aberta", "bracos": "atacar", "acessorios": ["espada"], "rotulo": "PEDRO"},
+    {"f": "pessoa", "x": 770, "virado": -1, "roupa": "#9aa0a6", "cabelo": "#2e2116", "olhos": "fechado", "boca": "dor", "bracos": ["ouvido", "abertos"], "acessorios": ["sangue_orelha"], "rotulo": "MALCO"}
+   ]},
+  {"fala": "O nome dele era Malco. Ele era servo do sumo sacerdote.", "ref": "João 18:10",
+   "desenho": [
+    {"f": "chao", "y": 1480},
+    {"f": "templo", "x": 540, "y": 1480, "s": 1.25},
+    {"f": "pessoa", "x": 300, "roupa": "#8e6bbf", "barba": "#e6e6e6", "olhos": "bravo", "boca": "reta", "bracos": "cruzados", "acessorios": ["mitra"], "rotulo": "SUMO SACERDOTE"},
+    {"f": "pessoa", "x": 800, "h": 440, "virado": -1, "roupa": "#9aa0a6", "cabelo": "#2e2116", "boca": "normal", "bracos": "baixo", "rotulo": "MALCO (SERVO)"}
+   ]},
+  {"fala": "Era noite, no jardim do Getsêmani. Soldados chegaram com tochas para prender Jesus.", "ref": "João 18:3",
+   "desenho": [
+    {"f": "noite"}, {"f": "lua", "x": 150, "y": 690}, {"f": "estrelas", "n": 4},
+    {"f": "arvore", "x": 960, "y": 1480, "s": 1.1},
+    {"f": "chao", "y": 1480, "grama": false},
+    {"f": "pessoa", "x": 250, "roupa": "#fdfaf2", "faixa": "#d9534f", "cabelo": "#6b4423", "cabelo_longo": true, "barba": "#6b4423", "boca": "reta", "bracos": "baixo", "rotulo": "JESUS"},
+    {"f": "pessoa", "x": 560, "h": 470, "virado": -1, "roupa": "#d9534f", "olhos": "bravo", "boca": "reta", "bracos": "frente", "acessorios": ["capacete", "tocha"]},
+    {"f": "pessoa", "x": 790, "h": 470, "virado": -1, "roupa": "#d9534f", "olhos": "bravo", "boca": "reta", "bracos": "frente", "acessorios": ["capacete", "lanca"]}
+   ]},
+  {"fala": "Pedro puxou uma espada e atacou. Cortou a orelha direita de Malco.", "ref": "João 18:10",
+   "desenho": [
+    {"f": "noite"},
+    {"f": "chao", "y": 1480, "grama": false},
+    {"f": "pessoa", "x": 300, "roupa": "#f0954a", "cabelo": "#4a3524", "barba": "#4a3524", "olhos": "bravo", "boca": "aberta", "bracos": "atacar", "acessorios": ["espada"]},
+    {"f": "pessoa", "x": 790, "virado": -1, "roupa": "#9aa0a6", "cabelo": "#2e2116", "olhos": "arregalado", "boca": "aberta", "bracos": ["ouvido", "abertos"], "acessorios": ["sangue_orelha", "sem_orelha"]},
+    {"f": "orelha", "x": 610, "y": 840, "s": 0.35},
+    {"f": "svg", "codigo": "<path d='M680,880 q30,-40 70,-30 M690,920 q40,-20 70,0' fill='none' stroke='#222' stroke-width='5' stroke-linecap='round'/>"},
+    {"f": "texto", "x": 600, "y": 740, "t": "ZAP!", "tam": 80, "cor": "#c0392b"}
+   ]},
+  {"fala": "Mas Jesus disse: Basta! Tocou na orelha dele, e ela ficou curada.", "ref": "Lucas 22:51",
+   "desenho": [
+    {"f": "noite"},
+    {"f": "chao", "y": 1480, "grama": false},
+    {"f": "balao", "x": 330, "y": 760, "t": "Basta!", "tam": 64, "cauda": [330, 980]},
+    {"f": "pessoa", "x": 420, "roupa": "#fdfaf2", "faixa": "#d9534f", "cabelo": "#6b4423", "cabelo_longo": true, "barba": "#6b4423", "boca": "feliz", "bracos": "frente"},
+    {"f": "pessoa", "x": 660, "virado": -1, "roupa": "#9aa0a6", "cabelo": "#2e2116", "olhos": "arregalado", "boca": "aberta", "bracos": "baixo", "acessorios": ["brilho"]}
+   ]},
+  {"fala": "Agora, um detalhe que muda tudo. Na lei de Moisés, um sacerdote com defeito no corpo não podia servir no altar.", "ref": "Levítico 21:17-23", "tipo": "historico",
+   "desenho": [
+    {"f": "tabuas", "x": 540, "y": 1000, "s": 0.95},
+    {"f": "pessoa", "x": 210, "h": 420, "roupa": "#fdfaf2", "faixa": "#5b8fd6", "barba": "#4a3524", "boca": "reta", "bracos": "baixo", "acessorios": ["mitra"], "rotulo": "SACERDOTE"},
+    {"f": "texto", "x": 540, "y": 1340, "t": "corpo sem defeito", "tam": 60, "cor": "#c0392b"},
+    {"f": "certo", "x": 870, "y": 1380, "r": 70}
+   ]},
+  {"fala": "E cortar a orelha era um jeito conhecido de tirar alguém do cargo. O historiador Josefo conta que um rival cortou as orelhas do sumo sacerdote Hircano, para ele nunca mais poder servir.", "ref": "Josefo, Antiguidades 14.366", "tipo": "historico",
+   "desenho": [
+    {"f": "pergaminho", "x": 540, "y": 1000, "w": 860, "h": 520, "titulo": "JOSEFO (historiador)", "linhas": ["Por volta de 40 a.C.,", "o sumo sacerdote Hircano", "perdeu as orelhas", "e nunca mais pôde servir."], "tam": 52},
+    {"f": "orelha", "x": 540, "y": 1440, "s": 0.55, "cortada": true}
+   ]},
+  {"fala": "Malco era servo, e provavelmente não era sacerdote. Mesmo assim, ficaria marcado para sempre. E alguns estudiosos veem no golpe uma afronta direta ao sumo sacerdote.", "tipo": "historico",
+   "desenho": [
+    {"f": "chao", "y": 1480},
+    {"f": "pessoa", "x": 320, "roupa": "#9aa0a6", "cabelo": "#2e2116", "olhos": "triste", "boca": "triste", "bracos": ["ouvido", "baixo"], "acessorios": ["sem_orelha", "sangue_orelha"], "rotulo": "MARCADO"},
+    {"f": "pessoa", "x": 790, "virado": -1, "roupa": "#8e6bbf", "barba": "#e6e6e6", "olhos": "bravo", "boca": "aberta", "bracos": "cruzados", "acessorios": ["mitra"]},
+    {"f": "balao", "x": 800, "y": 780, "t": "Afronta!", "tam": 56, "cauda": [790, 990]}
+   ]},
+  {"fala": "Jesus desfez tudo isso. Foi a última cura registrada antes da cruz. E ele curou um homem que veio prendê-lo.", "ref": "Lucas 22:51",
+   "desenho": [
+    {"f": "sol", "x": 880, "y": 720},
+    {"f": "cruz", "x": 540, "y": 1480, "s": 0.75},
+    {"f": "chao", "y": 1480},
+    {"f": "pessoa", "x": 260, "roupa": "#fdfaf2", "faixa": "#d9534f", "cabelo": "#6b4423", "cabelo_longo": true, "barba": "#6b4423", "boca": "feliz", "bracos": "abertos"},
+    {"f": "pessoa", "x": 820, "virado": -1, "roupa": "#9aa0a6", "cabelo": "#2e2116", "boca": "feliz", "bracos": "rezando"},
+    {"f": "coracao", "x": 540, "y": 760, "s": 0.8}
+   ]},
+  {"fala": "Horas depois, um parente de Malco viu Pedro perto de uma fogueira. E perguntou: Eu não vi você no jardim?", "ref": "João 18:26",
+   "desenho": [
+    {"f": "noite"},
+    {"f": "chao", "y": 1480, "grama": false},
+    {"f": "fogueira", "x": 540, "y": 1480},
+    {"f": "pessoa", "x": 270, "roupa": "#f0954a", "cabelo": "#4a3524", "barba": "#4a3524", "olhos": "arregalado", "boca": "reta", "bracos": "baixo"},
+    {"f": "pessoa", "x": 810, "virado": -1, "roupa": "#c9a66b", "cabelo": "#2e2116", "olhos": "bravo", "boca": "aberta", "bracos": "apontar"},
+    {"f": "balao", "x": 700, "y": 760, "t": "Eu não vi você\nno jardim?", "tam": 50, "cauda": [790, 1000]}
+   ]},
+  {"fala": "Pedro negou de novo. E na mesma hora, o galo cantou.", "ref": "João 18:27",
+   "desenho": [
+    {"f": "sol", "x": 180, "y": 760, "r": 55},
+    {"f": "chao", "y": 1480},
+    {"f": "pessoa", "x": 360, "roupa": "#f0954a", "cabelo": "#4a3524", "barba": "#4a3524", "olhos": "triste", "boca": "triste", "bracos": "cruzados"},
+    {"f": "balao", "x": 320, "y": 820, "t": "Não!", "tam": 60, "cauda": [360, 1020]},
+    {"f": "galo", "x": 790, "y": 1480, "s": 1.3},
+    {"f": "texto", "x": 830, "y": 1120, "t": "Cocoricó!", "tam": 60, "cor": "#c0392b"}
+   ]},
+  {"fala": "Pedro feriu com a espada. Jesus curou com a mão. Leia em João 18 e Lucas 22.", "ref": "João 18 · Lucas 22",
+   "desenho": [
+    {"f": "espada", "x": 120, "y": 1000, "s": 1.1, "ang": -15},
+    {"f": "xis", "x": 290, "y": 1000, "r": 100},
+    {"f": "coracao", "x": 800, "y": 1000, "s": 1.2},
+    {"f": "texto", "x": 290, "y": 1260, "t": "ferir", "tam": 72},
+    {"f": "texto", "x": 800, "y": 1260, "t": "curar", "tam": 72, "cor": "#c0392b"},
+    {"f": "seta", "x1": 420, "y1": 1000, "x2": 640, "y2": 1000}
+   ]}
+ ]
+}

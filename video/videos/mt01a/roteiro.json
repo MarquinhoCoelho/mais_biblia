@@ -1,0 +1,75 @@
+{
+ "titulo": "A notícia que quase separou José e Maria",
+ "livro": "mt", "capitulo": 1, "versiculos": "18-19", "parte": 1,
+ "trecho": "Mateus 1:18-19",
+ "fontes": ["Mateus 1:18-19 (NVI)", "Deuteronômio 22:23-24", "Deuteronômio 24:1", "Mishná, Ketubot 5:2 (prazo de cerca de um ano entre noivado e casamento)"],
+ "cenas": [
+  {"fala": "Mateus 1, versículos 18 e 19. Antes de Jesus nascer, José recebeu uma notícia que podia acabar com tudo.", "tipo": "biblia",
+   "desenho": [
+    {"f": "chao", "y": 1480},
+    {"f": "pessoa", "x": 540, "roupa": "#9b6b43", "cabelo": "#3b2a1a", "barba": "#3b2a1a", "olhos": "arregalado", "boca": "aberta", "bracos": "cima", "rotulo": "JOSÉ"},
+    {"f": "interrogacao", "x": 300, "y": 960, "tam": 170},
+    {"f": "interrogacao", "x": 800, "y": 900, "tam": 130}
+   ]},
+  {"fala": "Maria estava prometida em casamento a José. Mas, antes de viverem juntos, ela ficou grávida, pelo Espírito Santo.", "ref": "Mateus 1:18", "tipo": "biblia",
+   "desenho": [
+    {"f": "chao", "y": 1480},
+    {"f": "pessoa", "x": 300, "roupa": "#9b6b43", "cabelo": "#3b2a1a", "barba": "#3b2a1a", "olhos": "arregalado", "boca": "aberta", "bracos": "baixo", "rotulo": "JOSÉ"},
+    {"f": "pessoa", "x": 760, "h": 460, "virado": -1, "roupa": "#5b8fd6", "cabelo": "#3b2a1a", "olhos": "normal", "boca": "normal", "bracos": "rezando", "acessorios": ["veu", "gravida", "brilho"], "rotulo": "MARIA"}
+   ]},
+  {"fala": "Naquela época, o noivado judeu não era como hoje. Já era um contrato. Os noivos já eram chamados de marido e mulher.", "tipo": "historico",
+   "desenho": [
+    {"f": "pergaminho", "x": 540, "y": 1050, "w": 860, "h": 560, "titulo": "NOIVADO JUDEU", "linhas": ["contrato entre as famílias", "já eram \"marido e mulher\"", "só terminava", "com divórcio"], "tam": 54}
+   ]},
+  {"fala": "A noiva costumava ficar cerca de um ano na casa do pai, antes de ir morar com o marido. E muitas noivas eram bem jovens, ainda adolescentes.", "ref": "Mishná, Ketubot 5:2", "tipo": "historico",
+   "desenho": [
+    {"f": "chao", "y": 1480},
+    {"f": "casa", "x": 300, "y": 1480, "s": 1.3},
+    {"f": "pessoa", "x": 680, "h": 460, "virado": -1, "roupa": "#5b8fd6", "cabelo": "#3b2a1a", "boca": "feliz", "bracos": "baixo", "acessorios": ["veu"]},
+    {"f": "pessoa", "x": 890, "virado": -1, "roupa": "#c9a66b", "barba": "#e6e6e6", "boca": "feliz", "bracos": "baixo", "acessorios": ["turbante"], "rotulo": "PAI"},
+    {"f": "texto", "x": 540, "y": 800, "t": "cerca de 1 ano", "tam": 70, "cor": "#c0392b"}
+   ]},
+  {"fala": "Por isso, para desfazer o noivado, era preciso dar uma carta de divórcio.", "ref": "Deuteronômio 24:1", "tipo": "historico",
+   "desenho": [
+    {"f": "pergaminho", "x": 540, "y": 1000, "w": 700, "h": 420, "titulo": "CARTA DE DIVÓRCIO", "linhas": ["Eu, José,", "desfaço o compromisso..."], "tam": 56},
+    {"f": "seta", "x1": 540, "y1": 1260, "x2": 540, "y2": 1400}
+   ]},
+  {"fala": "E a gravidez parecia traição. A Lei de Moisés previa até apedrejamento em casos assim. Na época de Jesus, o mais provável era a vergonha pública e o divórcio.", "ref": "Deuteronômio 22:23-24", "tipo": "historico",
+   "desenho": [
+    {"f": "tabuas", "x": 540, "y": 950, "s": 0.8},
+    {"f": "chao", "y": 1480},
+    {"f": "pedras", "x": 540, "y": 1480, "n": 5},
+    {"f": "pessoa", "x": 160, "h": 400, "roupa": "#c9a66b", "olhos": "bravo", "boca": "aberta", "bracos": "apontar"},
+    {"f": "pessoa", "x": 920, "h": 400, "virado": -1, "roupa": "#6bb36b", "olhos": "bravo", "boca": "reta", "bracos": "apontar"}
+   ]},
+  {"fala": "Mas José era um homem justo. Ele não quis expor Maria à vergonha pública.", "ref": "Mateus 1:19", "tipo": "biblia",
+   "desenho": [
+    {"f": "chao", "y": 1480},
+    {"f": "pessoa", "x": 540, "roupa": "#9b6b43", "cabelo": "#3b2a1a", "barba": "#3b2a1a", "olhos": "triste", "boca": "reta", "bracos": "cruzados"},
+    {"f": "balao", "x": 540, "y": 790, "t": "Não vou\nhumilhar Maria.", "tam": 54, "cauda": [540, 1020], "pensamento": true}
+   ]},
+  {"fala": "Então decidiu desfazer o compromisso em segredo, sem levar o caso a público.", "ref": "Mateus 1:19", "tipo": "biblia",
+   "desenho": [
+    {"f": "noite"}, {"f": "lua", "x": 860, "y": 700},
+    {"f": "chao", "y": 1480, "grama": false},
+    {"f": "pessoa", "x": 420, "roupa": "#9b6b43", "cabelo": "#3b2a1a", "barba": "#3b2a1a", "olhos": "triste", "boca": "triste", "bracos": ["baixo", "frente"], "acessorios": ["pergaminho"]},
+    {"f": "texto", "x": 760, "y": 900, "t": "em segredo", "tam": 64, "cor": "#c0392b"}
+   ]},
+  {"fala": "Repare: para José, ser justo não era só cumprir a regra. Era cumprir a lei com misericórdia.", "tipo": "teologico",
+   "desenho": [
+    {"f": "tabuas", "x": 320, "y": 1050, "s": 0.75},
+    {"f": "texto", "x": 540, "y": 1090, "t": "+", "tam": 140},
+    {"f": "coracao", "x": 780, "y": 1040, "s": 1.1},
+    {"f": "texto", "x": 320, "y": 1340, "t": "lei", "tam": 70},
+    {"f": "texto", "x": 780, "y": 1340, "t": "misericórdia", "tam": 70, "cor": "#c0392b"}
+   ]},
+  {"fala": "Só que, antes de ele agir, Deus falou com José. Isso está na parte dois: Mateus 1, versículos 20 a 25.", "ref": "Mateus 1:20", "tipo": "biblia",
+   "desenho": [
+    {"f": "noite"}, {"f": "estrelas", "n": 6},
+    {"f": "chao", "y": 1480, "grama": false},
+    {"f": "deitado", "x": 540, "y": 1480, "roupa": "#9b6b43", "cabelo": "#3b2a1a", "barba": "#3b2a1a"},
+    {"f": "zzz", "x": 380, "y": 1240},
+    {"f": "texto", "x": 540, "y": 900, "t": "continua...", "tam": 80, "cor": "#c0392b"}
+   ]}
+ ]
+}
