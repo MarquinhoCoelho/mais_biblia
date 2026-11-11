@@ -2,7 +2,7 @@ import Constants from 'expo-constants';
 
 // EXPO_PUBLIC_API_URL troca a API em desenvolvimento (ex.: http://localhost:3070)
 export const API_URL: string =
-  process.env.EXPO_PUBLIC_API_URL || ((Constants.expoConfig?.extra?.apiUrl as string) ?? 'http://92.112.176.96:3070');
+  process.env.EXPO_PUBLIC_API_URL || ((Constants.expoConfig?.extra?.apiUrl as string) ?? 'https://senai.vivitsolucoes.com.br/mais-biblia');
 
 export type Livro = {
   abrev: string;

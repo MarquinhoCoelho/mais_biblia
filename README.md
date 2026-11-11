@@ -27,16 +27,16 @@ Os vídeos e o `catalogo.json` ficam em `api/data/` (volume). Faça backup dessa
 | `POST /api/videos` | (token) envia/atualiza vídeo: campos `meta` (JSON), `video`, `capa` |
 | `DELETE /api/videos/:id` | (token) apaga |
 
-### Na VPS
+### Na VPS (produção)
+
+Rodando em `https://senai.vivitsolucoes.com.br/mais-biblia/` (nginx `senai.conf`, bloco `location /mais-biblia/` → `127.0.0.1:3070`).
 
 ```bash
-git clone https://github.com/MarquinhoCoelho/mais_biblia.git /opt/mais_biblia
-cd /opt/mais_biblia/api
-cp .env.example .env && nano .env     # ADMIN_TOKEN, PUBLIC_URL=http://IP_DA_VPS:3070
-docker compose up -d --build
+cd /opt/mais_biblia && git pull
+cd api && docker compose up -d --build     # .env: ADMIN_TOKEN, PORTA=127.0.0.1:3070, PUBLIC_URL=https://senai.vivitsolucoes.com.br/mais-biblia
 ```
 
-Libere a porta 3070 no firewall (`ufw allow 3070/tcp`) se ele estiver ativo. Atualizar depois: `git pull && docker compose up -d --build`.
+A porta 3070 fica só em localhost; o acesso público passa pelo nginx (HTTPS).
 
 ## Vídeo novo (sem gerar APK novo)
 

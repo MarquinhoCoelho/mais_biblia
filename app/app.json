@@ -46,7 +46,7 @@
       "typedRoutes": true
     },
     "extra": {
-      "apiUrl": "http://92.112.176.96:3070",
+      "apiUrl": "https://senai.vivitsolucoes.com.br/mais-biblia",
       "router": {
         "asyncRoutes": {
           "web": true
